@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<title>Assistente de Registros Acadêmicos</title>
+<meta name="description" content="Chatbot para geração de registros educacionais qualificados em formato de conversa.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <div class="stage">
+
+    <div class="phone main-phone" id="mainPhone">
+
+      <header class="topbar">
+        <div class="bot-avatar" aria-hidden="true">
+          <span class="bot-avatar-dot"></span>
+          RQ
+        </div>
+        <div class="topbar-info">
+          <h1>Assistente de Registros Educacionais</h1>
+          <p><span class="online-dot"></span> pronto para te ajudar</p>
+        </div>
+        <button type="button" class="info-btn" id="infoBtn" title="Sobre este assistente" aria-label="Informações sobre este assistente">
+          i
+        </button>
+        <button type="button" class="restart-btn" id="restartBtn" title="Começar um novo registro">
+          Novo registro
+        </button>
+      </header>
+
+      <div class="progress" id="progress" aria-hidden="true">
+        <div class="progress-step" data-step="perfil"><span></span>Perfil</div>
+        <div class="progress-step" data-step="tipo"><span></span>Tipo</div>
+        <div class="progress-step" data-step="itens"><span></span>Itens</div>
+        <div class="progress-step" data-step="final"><span></span>Registro</div>
+      </div>
+
+      <main class="chat" id="chat" role="log" aria-live="polite"></main>
+
+      <div class="options" id="options"></div>
+
+      <div class="footer-actions" id="footerActions" hidden></div>
+
+    </div>
+
+    <div class="phone side-phone" id="sidePanel" aria-hidden="true">
+      <header class="panel-header">
+        <h2 id="panelTitle">Selecionar itens</h2>
+        <button type="button" class="panel-close" id="panelCloseBtn" title="Fechar" aria-label="Fechar painel">✕</button>
+      </header>
+      <div class="panel-body" id="panelBody"></div>
+      <div class="panel-footer" id="panelFooter"></div>
+    </div>
+
+  </div>
+
+  <p class="footnote">
+    Interface otimizada via claude.ai<br>    
+    Chatbot em HTML5, CSS e JavaScript puros.<br>
+    &copy; 2026, <em>Adilson G Andrade</em> (Senac SOR)
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
