@@ -435,6 +435,12 @@
 
   function scrollToBottom() {
     chatEl.scrollTop = chatEl.scrollHeight;
+    requestAnimationFrame(function () {
+      chatEl.scrollTop = chatEl.scrollHeight;
+      setTimeout(function () {
+        chatEl.scrollTop = chatEl.scrollHeight;
+      }, 60);
+    });
   }
 
   /* ---------- Progresso ---------- */
