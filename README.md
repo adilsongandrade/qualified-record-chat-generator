@@ -117,6 +117,9 @@ Não é permitido copiar, redistribuir, sublicenciar ou utilizar este código, t
 
 ## ✉️ Autoria
 
+Arquitetura original de concepção do autor [https://github.com/labSenacSor/qualified-record-generator](https://github.com/labSenacSor/qualified-record-generator)
+Mecânica Chat inspirada no projeto [https://github.com/eduardotkoller/convform](https://github.com/eduardotkoller/convform)
+
 Desenvolvido por **Adilson G Andrade** (Senac SOR).
 
 &copy; 2026 — Todos os direitos reservados.
