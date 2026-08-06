@@ -26,8 +26,6 @@ Em vez de um formulário tradicional, o(a) docente é guiado(a) por uma conversa
 > Versão publicada (live) na Vercel. 
 [https://qualified-record-chat-generator.vercel.app/](https://qualified-record-chat-generator.vercel.app/)
 
-```
----
 
 ## 🛠️ Tecnologias
 
