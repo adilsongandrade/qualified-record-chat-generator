@@ -57,73 +57,156 @@
   };
 
     /* ---------- Dados: de feedback e observações ---------- */
-  var ITENS = [
-    {
-      id: "item1",
-      label: "FREQUÊNCIA mínima nas atividades.",
-      value: "sobre a necessidade de FREQUÊNCIA nas atividades conforme cronograma: Orientação que A frequência mínima de 75% é obrigatória para aprovação e é apurada na carga horária total ministrada em cada componente curricular., conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 55 do Regimento Escolar Vigente."
-    },
-    {
-      id: "item2",
-      label: "AUSÊNCIA nas atividades previstas.",
-      value: "sobre a AUSÊNCIA nas atividades previstas em cronograma: Orientação que a AUSÊNCIA compromete (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente."
-    },
-    {
-      id: "item3",
-      label: "SAÍDA ANTECIPADA (com recorrência).",
-      value: "sobre a SAÍDA ANTECIPADA (com recorrência): Orientação que a SAÍDA ANTECIPADA recorrente compromete (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente."
-    },
-    {
-      id: "item4",
-      label: "Critérios de AVALIAÇÃO nas UC´s.",
-      value: "sobre os CRITÉRIOS DE AVALIAÇÃO nas Unidades Curriculares: Orientação que (...) Será considerado aprovado o estudante que obtiver a menção Desenvolvida e a frequência igual ou superior a 75% em cada componente curricular, de acordo com o Plano de Curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 61 do Regimento Escolar vigente."
-    },
-    {
-      id: "item5",
-      label: "NÃO ENTREGA de atividades propostas.",
-      value: "sobre NÃO ENTREGA de atividades propostas: Orientação que (...) Para acompanhar o desenvolvimento de ensino e aprendizagem e o desempenho dos estudantes nos cursos (...) serão feitos registros parciais por componente curricular com foco nos indicadores descritos nos planos de curso. A NÃO ENTREGA de atividades ensejará registro como Não Atendido durante o desenvolvimento do componente curricular. - Conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 59 do Regimento Escolar vigente."
-    },
-    {
-      id: "item6",
-      label: "Divulgação de FREQUÊNCIA.",
-      value: "sobre DIVULGAÇÃO de frequência: Orientação que Os resultados sobre, menções ou notas são divulgados na área exclusiva no endereço eletrônico www.sp.senac.br. Orientação de utilizar a Área Exclusiva no Portal ou APP Senac - conforme Título VII - Do Registro Escolar - Capítulo I - Da divulgação dos resultados. - Artigo 70 do Regimento Escolar Vigente."
-    },
-    {
-      id: "item7",
-      label: "RECUPERAÇÃO da Aprendizagem.",
-      value: "sobre a oportunidade de RECUPERAÇÃO da APRENDIZAGEM: Orientação que Atendendo ao princípio da avaliação contínua e qualitativa, devem ser oferecidas aos estudantes, oportunidades de recuperação no decorrer do processo educacional, organizadas em diferentes formatos que possibilitem novas situações de aprendizagem. Conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 54 - Parágrafo 3º do Regimento Escolar Vigente."
-    },
-    {
-      id: "item8",
-      label: "REPROVA por FREQUÊNCIA.",
-      value: "sobre REPROVA POR FREQUÊNCIA: Constatou-se que as FALTAS INJUSTIFICADAS, EXCEDERAM O LIMITE REGIMENTAL, se não houver documentação com amparo legal, esta UC quando de seu encerramento, ensejará REPROVA POR FREQUÊNCIA, conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 55 do Regimento Escolar Vigente. Se configurar-se a Reprova por Frequência, esta UC poderá ser refeita em turma futura atendendo as exigências do Plano de Curso vigente na época. Estudante orientado a sempre verificar junto à Secretaria Educacional o andamento da análise de documentos encaminhados na Área Exclusiva do Portal ou APP Senac."
-    },
-    {
-      id: "item9",
-      label: "REPROVA por MENÇÃO.",
-      value: "sobre REPROVA POR MENÇÃO: Orientação que mesmo após oportunidades de recuperação de aprendizagem, NÃO ATENDEU integralmente os indicadores propostos, restando a menção final como NÃO DESENVOLVIDA (ND) (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente. Orientação que esta UC poderá ser refeita em turma futura atendendo as exigências do Plano de Curso vigente na época."
-    },
-    {
-      id: "item10",
-      label: "REVISÃO e RECURSO (frequência ou menções).",
-      value: "sobre REVISÃO e RECURSO: Orientação que o pedido de revisão consiste exclusivamente na verificação, pelos docentes, dos resultados relativos a frequência, menções ou notas. (...) Os estudantes poderão solicitar a revisão na Secretaria Escolar ou na área exclusiva no endereço eletrônico www.sp.senac.br, no prazo de até 20 (vinte) dias corridos a partir da data de término dos componentes curriculares. - Conforme Capítulo II - Da Revisão e do Recurso - Artigos 73 e 74 do Regimento Escolar Vigente."
-    },
-    {
-      id: "item11",
-      label: "FALTAS para situações não previstas.",
-      value: "sobre FALTAS para situações não previstas: Orientação que Faltas motivadas por razões não previstas na legislação educacional ou no Regimento Escolar vigente, como saúde ou falecimento de familiares, participação em júris, eleições e doações de sangue, devem ser registradas e contabilizadas dentro do limite de 25% permitido para ausência dos estudantes. - conforme Capitulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas - Artigo 58 do Regimento Escolar vigente."
-    },
-    {
-      id: "item12",
-      label: "Faltas com AMPARO LEGAL.",
-      value: "sobre FALTA COM AMPARO LEGAL: Orientação que Os estudantes podem requerer amparo legal, com tratamento excepcional, mediante documentos comprobatórios para análise e deferimento do Setor Técnico, exclusivamente para faltas motivadas pelos motivos a seguir: I - estudantes impossibilitados de frequentar as aulas em razão de tratamento de saúde ou de condição de saúde que impossibilite o acesso à instituição de ensino, nos termos do Decreto-lei nº 1.044/1969, atualizado pela Lei nº 14.952/24; II - gestantes, 90 (noventa) dias a partir do 8º (oitavo) mês de gestação, nos termos da Lei nº 6.202/1975; III - adotantes, nos termos da Lei nº 10.421/2002; IV - atividade desportiva, nos termos da Lei nº 9.615/1998; V - crença religiosa, nos termos da Lei nº 13.796/2019; VI - licença-paternidade, excepcionalmente, nos termos da Consolidação das Leis do Trabalho (CLT); VII - estudantes do Ensino Médio Técnico Integrado, nos termos da Lei de Diretrizes e Bases da Educação Nacional (LDB), para faltas nas atividades práticas de Educação Física; VIII - serviço militar, exclusivamente com abono de faltas, nos termos da Lei nº 4.375/1964. IX - lactantes até o 6º mês de lactação, nos termos da Lei nº 6.202/1975 e da Lei nº 14.952/24 - conforme Capitulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas - Artigo 56 do Regimento Escolar vigente."
-    },
-    {
-      id: "item13",
-      label: "Envio de ATESTADOS.",
-      value: "sobre o ENVIO DE ATESTADOS: Orientação que Os estudantes podem requerer amparo legal, com tratamento excepcional, mediante documentos comprobatórios para análise e deferimento do Setor Técnico (...) recomenda-se encaminhar cópia digital/escaneada no caso de ATESTADOS DE AFASTAMENTO, com assinatura física ou digital do médico inscrito no CRM, no prazo de até sete dias corridos através da Área Exclusiva do Portal ou APP Senac. Salienta-se que ATESTADOS DE COMPARECIMENTO não são documentos hábeis para tratamento excepcional pois não se enquadram no item I do Artigo 56 do Regimento Escolar vigente, conforme Capítulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas."
-    }
-  ];
+    /* ---------- Dados: Os 21 itens classificados e ordenados por Eixo Temático ---------- */
+    var ITENS = [
+
+      /* ==========================================================================
+        EIXO 1: ASSIDUIDADE E PONTUALIDADE
+        ========================================================================== */
+      {
+        id: "item1",
+        eixo: "Assiduidade e Pontualidade",
+        label: "Necessidade de FREQUÊNCIA nas atividades conforme cronograma.",
+        value: "sobre a necessidade de FREQUÊNCIA nas atividades conforme cronograma: Orientação que A frequência mínima de 75% é obrigatória para aprovação e é apurada na carga horária total ministrada em cada componente curricular., conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 55 do Regimento Escolar Vigente."
+      },
+      {
+        id: "item2",
+        eixo: "Assiduidade e Pontualidade",
+        label: "AUSÊNCIA nas atividades previstas em cronograma.",
+        value: "sobre a AUSÊNCIA nas atividades previstas em cronograma: Orientação que a AUSÊNCIA compromete (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente."
+      },
+      {
+        id: "item3",
+        eixo: "Assiduidade e Pontualidade",
+        label: "SAÍDA ANTECIPADA (com recorrência).",
+        value: "sobre a SAÍDA ANTECIPADA (com recorrência): Orientação que a SAÍDA ANTECIPADA recorrente compromete (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente."
+      },
+      {
+        id: "item8",
+        eixo: "Assiduidade e Pontualidade",
+        label: "REPROVA por FREQUÊNCIA.",
+        value: "sobre REPROVA POR FREQUÊNCIA: Constatou-se que as FALTAS INJUSTIFICADAS, EXCEDERAM O LIMITE REGIMENTAL, se não houver documentação com amparo legal, esta UC quando de seu encerramento, ensejará REPROVA POR FREQUÊNCIA, conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 55 do Regimento Escolar Vigente. Se configurar-se a Reprova por Frequência, esta UC poderá ser refeita em turma futura atendendo as exigências do Plano de Curso vigente na época. Estudante orientado a sempre verificar junto à Secretaria Educacional o andamento da análise de documentos encaminhados na Área Exclusiva do Portal ou APP Senac."
+      },
+
+      /* ==========================================================================
+        EIXO 2: AMPARO LEGAL, FALTAS E ATESTADOS
+        ========================================================================== */
+      {
+        id: "item11",
+        eixo: "Amparo Legal, Faltas e Atestados",
+        label: "FALTAS para situações não previstas no Regimento.",
+        value: "sobre FALTAS para situações não previstas: Orientação que Faltas motivadas por razões não previstas na legislação educacional ou no Regimento Escolar vigente, como saúde ou falecimento de familiares, participação em júris, eleições e doações de sangue, devem ser registradas e contabilizadas dentro do limite de 25% permitido para ausência dos estudantes. - conforme Capitulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas - Artigo 58 do Regimento Escolar vigente."
+      },
+      {
+        id: "item12",
+        eixo: "Amparo Legal, Faltas e Atestados",
+        label: "Faltas com AMPARO LEGAL.",
+        value: "sobre FALTA COM AMPARO LEGAL: Orientação que Os estudantes podem requerer amparo legal, com tratamento excepcional, mediante documentos comprobatórios para análise e deferimento do Setor Técnico, exclusivamente para faltas motivadas pelos motivos a seguir: I - doenças ou traumatismos (Decreto-Lei 1.044/1969); II - Gestantes, 90 dias a partir do 8º mês de gestação (Lei 6.202/1975); III - adotantes (Lei 10.420/2002); IV - atividade desportiva (Lei 9.615/1998); V - crença religiosa (Lei 13.796/2019); VI - licença-paternidade (CLT); VII - EMED (educação física); VIII - Serviço Militar (Lei 4.375/1964) - conforme Capitulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas - Artigo 56 do Regimento Escolar vigente."
+      },
+      {
+        id: "item13",
+        eixo: "Amparo Legal, Faltas e Atestados",
+        label: "Envio de ATESTADOS.",
+        value: "sobre o ENVIO DE ATESTADOS: Orientação que Os estudantes podem requerer amparo legal, com tratamento excepcional, mediante documentos comprobatórios para análise e deferimento do Setor Técnico (...) recomenda-se encaminhar cópia digital/escaneada no caso de ATESTADOS DE AFASTAMENTO, contendo o CID (código internacional de doenças) e assinatura com CRM do médico, no prazo de até cinco dias através da Área Exclusiva do Portal ou APP Senac. Salienta-se que ATESTADOS DE COMPARECIMENTO não são documentos hábeis para tratamento excepcional pois não se enquadram no item I do Artigo 56 do Regimento Escolar vigente, conforme Capítulo II - Dos Critérios e Forma de Avaliação, Seção I - Da Frequência - Subseção I - Do Amparo Legal de Faltas."
+      },
+
+      /* ==========================================================================
+        EIXO 3: PROCESSO AVALIATIVO, RECUPERAÇÃO E RESULTADOS
+        ========================================================================== */
+      {
+        id: "item4",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "Critérios de AVALIAÇÃO nas Unidades Curriculares.",
+        value: "sobre os CRITÉRIOS DE AVALIAÇÃO nas Unidades Curriculares: Orientação que (...) Será considerado aprovado o estudante que obtiver a menção Desenvolvida e a frequência igual ou superior a 75% em cada componente curricular, de acordo com o Plano de Curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente."
+      },
+      {
+        id: "item5",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "NÃO ENTREGA de atividades propostas.",
+        value: "sobre NÃO ENTREGA de atividades propostas: Orientação que (...) Para acompanhar o desenvolvimento de ensino-aprendizagem e o desempenho dos estudantes nos cursos (...) serão feitos registros parciais por componente curricular com foco nos indicadores descritos nos planos de curso. A NÃO ENTREGA de atividades ensejará registro como Não Atendido durante o desenvolvimento do componente curricular. - Conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 59 do Regimento Escolar vigente."
+      },
+      {
+        id: "item7",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "Oportunidade de RECUPERAÇÃO da APRENDIZAGEM.",
+        value: "sobre a oportunidade de RECUPERAÇÃO da APRENDIZAGEM: Orientação que Atendendo ao princípio da avaliação contínua e qualitativa, devem ser oferecidas aos estudantes, oportunidades de recuperação no decorrer do processo educacional, organizadas em diferentes formatos que possibilitem novas situações de aprendizagem. Conforme Título VI - Da Avaliação do Estudante, Capítulo II – dos Critérios e Formas de Avaliação, Seção I – Da Frequência - Artigo 54 - Parágrafo 3º do Regimento Escolar Vigente."
+      },
+      {
+        id: "item9",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "REPROVA por MENÇÃO.",
+        value: "sobre REPROVA POR MENÇÃO: Orientação que mesmo após oportunidades de recuperação de aprendizagem, NÃO ATENDEU integralmente os indicadores propostos, restando a menção final como NÃO DESENVOLVIDA (ND) (...) O resultado da avaliação do desempenho do estudante, na perspectiva do desenvolvimento das competências profissionais, é expresso por menções relativas aos componentes curriculares descritos nos planos de curso., conforme Capítulo II - Dos critérios e formas de avaliação, Seção II - Do desempenho – Artigo 60 do Regimento Escolar vigente. Orientação que esta UC poderá ser refeita em turma futura atendendo as exigências do Plano de Curso vigente na época."
+      },
+      {
+        id: "item6",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "Divulgação de frequência.",
+        value: "sobre DIVULGAÇÃO de frequência: Orientação que Os resultados sobre, menções ou notas são divulgados na área exclusiva no endereço eletrônico www.sp.senac.br. Orientação de utilizar a Área Exclusiva no Portal ou APP Senac - conforme Título VII - Do Registro Escolar - Capítulo I - Da divulgação dos resultados. - Artigo 70 do Regimento Escolar Vigente."
+      },
+      {
+        id: "item10",
+        eixo: "Processo Avaliativo, Recuperação e Resultados",
+        label: "REVISÃO e RECURSO de frequência, menções ou notas.",
+        value: "sobre REVISÃO e RECURSO: Orientação que O pedido de revisão consiste exclusivamente na verificação, pelos docentes, dos resultados relativos a frequência, menções ou notas. (...) Os estudantes poderão solicitar a revisão na Secretaria Escolar ou na área exclusiva no endereço eletrônico www.sp.senac.br, no prazo de até 20 (vinte) dias corridos a partir da data de término dos componentes curriculares. - Conforme Capítulo II - Da Revisão e do Recurso - Artigos 73 e 74 do Regimento Escolar Vigente."
+      },
+
+      /* ==========================================================================
+        EIXO 4: CONVIVÊNCIA, CLIMA ESCOLAR E SAÚDE MENTAL
+        ========================================================================== */
+      {
+        id: "item14",
+        eixo: "Convivência, Clima Escolar e Saúde Mental",
+        label: "CONVIVÊNCIA e respeito às normas institucionais.",
+        value: "sobre CONVIVÊNCIA e respeito às normas institucionais: Orientação sobre o dever do estudante de respeitar as normas de convivência, de promoção à saúde mental e de segurança escolar, zelando por um ambiente propício ao aprendizado. O não cumprimento compromete o clima escolar e pode ensejar medidas reparadoras, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Inciso XI e Seção IV – Das Medidas Reparadoras, Artigo 28 do Regimento Escolar Vigente."
+      },
+      {
+        id: "item15",
+        eixo: "Convivência, Clima Escolar e Saúde Mental",
+        label: "PREVENÇÃO ao BULLYING e CYBERBULLYING no ambiente escolar.",
+        value: "sobre PREVENÇÃO ao BULLYING e CYBERBULLYING: Orientação de que é vedado praticar atos que caracterizem violência, ameaça, intimidação sistemática, agressão ou importunação sexual em meios presenciais ou virtuais. Tais condutas comprometem a integridade emocional dos estudantes e o processo de ensino-aprendizagem, sujeitando o infrator às medidas reparadoras de advertência, suspensão ou desligamento, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Inciso VII e Seção IV – Das Medidas Reparadoras, Artigo 28 do Regimento Escolar Vigente."
+      },
+      {
+        id: "item18",
+        eixo: "Convivência, Clima Escolar e Saúde Mental",
+        label: "CULTURA DE PAZ e NÃO DISCRIMINAÇÃO na comunidade escolar.",
+        value: "sobre CULTURA DE PAZ e NÃO DISCRIMINAÇÃO: Orientação que o estudante não deve praticar, induzir ou incitar quaisquer tipos de preconceito ou discriminação, devendo respeitar a todos em suas características pessoais e culturais. Condutas discriminatórias comprometem o trabalho em equipe, a diversidade e o ambiente pedagógico, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Inciso III do Regimento Escolar Vigente."
+      },
+      {
+        id: "item19",
+        eixo: "Convivência, Clima Escolar e Saúde Mental",
+        label: "ACOMPANHAMENTO PEDAGÓGICO em questões de Saúde Mental.",
+        value: "sobre ACOMPANHAMENTO PEDAGÓGICO em questões de Saúde Mental: Orientação de que o processo de avaliação é contínuo e qualitativo, devendo a Unidade Educacional, diante de singularidades ou impactos de saúde mental na aprendizagem, viabilizar a adaptação de estratégias e o suporte necessário para superação de barreiras e permanência do estudante, conforme Título VI - Da Avaliação do Estudante, Capítulo I – Da Avaliação da Aprendizagem, Artigo 54, Parágrafos 3º e 4º do Regimento Escolar Vigente."
+      },
+      {
+        id: "item20",
+        eixo: "Convivência, Clima Escolar e Saúde Mental",
+        label: "DESEMPENHO e COLABORAÇÃO em atividades de grupo (Soft Skills).",
+        value: "sobre DESEMPENHO e COLABORAÇÃO em atividades de grupo: Orientação de que o desenvolvimento de competências envolve a mediação de conflitos, comunicação assertiva e trabalho colaborativo em equipe (Soft Skills). A recusa recorrente ao trabalho em grupo compromete o alcance dos indicadores de competência definidos no perfil profissional de conclusão, conforme Título IV - Dos Princípios e Objetivos Educacionais, Capítulo III – Da Organização Curricular, Artigo 34 do Regimento Escolar Vigente e Plano de Curso da Habilitação Profissional."
+      },
+
+      /* ==========================================================================
+        EIXO 5: CONDUTA, SEGURANÇA E PATRIMÔNIO
+        ========================================================================== */
+      {
+        id: "item16",
+        eixo: "Conduta, Segurança e Patrimônio",
+        label: "PROIBIÇÃO do uso de SUBSTÂNCIAS PSICOATIVAS.",
+        value: "sobre a PROIBIÇÃO do uso de SUBSTÂNCIAS PSICOATIVAS: Orientação de que é expressamente proibido portar, consumir ou permanecer nos ambientes da Unidade Educacional em estado alterado de consciência provocado pelo uso de substâncias psicoativas, lícitas ou ilícitas. A inobservância desta regra compromete a segurança coletiva e a participação nas atividades pedagógicas, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Incisos IV e V do Regimento Escolar Vigente."
+      },
+      {
+        id: "item17",
+        eixo: "Conduta, Segurança e Patrimônio",
+        label: "Uso adequado dos RECURSOS TECNOLÓGICOS e PSI.",
+        value: "sobre o uso adequado dos RECURSOS TECNOLÓGICOS e PSI: Orientação que a utilização dos ambientes e recursos tecnológicos de aprendizagem deve ocorrer em estrito alinhamento com a Política de Segurança da Informação (PSI). O uso indevido de equipamentos, redes ou sistemas institucionais compromete o bom andamento das aulas e a segurança dos dados, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Inciso IX do Regimento Escolar Vigente."
+      },
+      {
+        id: "item21",
+        eixo: "Conduta, Segurança e Patrimônio",
+        label: "PRESERVAÇÃO do PATRIMÔNIO e ambientes de aprendizagem.",
+        value: "sobre PRESERVAÇÃO do PATRIMÔNIO e ambientes de aprendizagem: Orientação sobre o dever do estudante de preservar o patrimônio da instituição e de parceiros, respondendo por eventuais danos. O zelo com os recursos disponibilizados compromete diretamente a qualidade das atividades práticas, conforme Título III - Dos Docentes e Estudantes, Capítulo II, Seção II – Dos Deveres, Artigo 26, Inciso X do Regimento Escolar Vigente."
+      }
+
+    ];
 
   var originalFeedback = "";
 
