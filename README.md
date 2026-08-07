@@ -20,6 +20,57 @@ Em vez de um formulário tradicional, o(a) docente é guiado(a) por uma conversa
 **Por que existe:** reduzir o tempo de preenchimento, padronizar a linguagem institucional e reforçar a importância de personalizar cada registro, sem abrir mão da agilidade.
 
 ---
+# Mapeamento de Situações para Registros Educacionais (Feedbacks e Observações)
+
+Esta documentação apresenta a estrutura de situações mapeadas no sistema para orientação, formalização de feedbacks e registros de observações no processo de ensino-aprendizagem. Os itens estão categorizados em eixos temáticos para facilitar a seleção correlacionada por parte do corpo docente.
+
+---
+
+## 1. Eixo: Assiduidade e Pontualidade
+* **Descrição do Eixo:** Reúne as situações voltadas ao acompanhamento do cumprimento do cronograma escolar, controle de faltas e impactos da frequência no percurso formativo.
+* **Item 1:** Necessidade de FREQUÊNCIA nas atividades conforme cronograma.
+* **Item 2:** AUSÊNCIA nas atividades previstas em cronograma.
+* **Item 3:** SAÍDA ANTECIPADA (com recorrência).
+* **Item 8:** REPROVA por FREQUÊNCIA.
+
+---
+
+## 2. Eixo: Amparo Legal, Faltas e Atestados
+* **Descrição do Eixo:** Contempla as orientações relativas à justificativa e ao abono de ausências, regras para protocolo de documentos na Secretaria e os enquadramentos previstos na legislação educacional e regimental.
+* **Item 11:** FALTAS para situações não previstas no Regimento.
+* **Item 12:** Faltas com AMPARO LEGAL.
+* **Item 13:** Envio de ATESTADOS.
+
+---
+
+## 3. Eixo: Processo Avaliativo, Recuperação e Resultados
+* **Descrição do Eixo:** Agrupa as situações focadas na sistemática de avaliação da aprendizagem, registro de menções/indicadores, oportunidades de recuperação contínua e procedimentos formais de divulgação, revisão e recurso.
+* **Item 4:** Critérios de AVALIAÇÃO nas Unidades Curriculares.
+* **Item 5:** NÃO ENTREGA de atividades propostas.
+* **Item 7:** Oportunidade de RECUPERAÇÃO da APRENDIZAGEM.
+* **Item 9:** REPROVA por MENÇÃO.
+* **Item 6:** Divulgação de frequência.
+* **Item 10:** REVISÃO e RECURSO de frequência, menções ou notas.
+
+---
+
+## 4. Eixo: Convivência, Clima Escolar e Saúde Mental
+* **Descrição do Eixo:** Focado nas relações interpessoais, desenvolvimento de competências socioemocionais (*soft skills*), acolhimento de questões de saúde mental, combate ao bullying e promoção da cultura de paz no ambiente presencial ou virtual.
+* **Item 14:** CONVIVÊNCIA e respeito às normas institucionais.
+* **Item 15:** PREVENÇÃO ao BULLYING e CYBERBULLYING no ambiente escolar.
+* **Item 18:** CULTURA DE PAZ e NÃO DISCRIMINAÇÃO na comunidade escolar.
+* **Item 19:** ACOMPANHAMENTO PEDAGÓGICO em questões de Saúde Mental.
+* **Item 20:** DESEMPENHO e COLABORAÇÃO em atividades de grupo (Soft Skills).
+
+---
+
+## 5. Eixo: Conduta, Segurança e Patrimônio
+* **Descrição do Eixo:** Trata do cumprimento das diretrizes operacionais e disciplinares da instituição, zelando pela segurança física e digital, integridade do patrimônio e conformidade com as normas e políticas institucionais (como a Política de Segurança da Informação - PSI).
+* **Item 16:** PROIBIÇÃO do uso de SUBSTÂNCIAS PSICOATIVAS.
+* **Item 17:** Uso adequado dos RECURSOS TECNOLÓGICOS e PSI.
+* **Item 21:** PRESERVAÇÃO do PATRIMÔNIO e ambientes de aprendizagem.
+
+---
 
 ## 🖥️ Demonstração
 
