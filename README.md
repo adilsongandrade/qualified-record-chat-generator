@@ -31,26 +31,26 @@ Esta documentação apresenta a estrutura de situações mapeadas no sistema par
 * **Item 1:** Necessidade de FREQUÊNCIA nas atividades conforme cronograma.
 * **Item 2:** AUSÊNCIA nas atividades previstas em cronograma.
 * **Item 3:** SAÍDA ANTECIPADA (com recorrência).
-* **Item 8:** REPROVA por FREQUÊNCIA.
+* **Item 4:** REPROVA por FREQUÊNCIA.
 
 ---
 
 ## 2. Eixo: Amparo Legal, Faltas e Atestados
 * **Descrição do Eixo:** Contempla as orientações relativas à justificativa e ao abono de ausências, regras para protocolo de documentos na Secretaria e os enquadramentos previstos na legislação educacional e regimental.
-* **Item 11:** FALTAS para situações não previstas no Regimento.
-* **Item 12:** Faltas com AMPARO LEGAL.
-* **Item 13:** Envio de ATESTADOS.
+* **Item 5:** FALTAS para situações não previstas no Regimento.
+* **Item 6:** Faltas com AMPARO LEGAL.
+* **Item 7:** Envio de ATESTADOS.
 
 ---
 
 ## 3. Eixo: Processo Avaliativo, Recuperação e Resultados
 * **Descrição do Eixo:** Agrupa as situações focadas na sistemática de avaliação da aprendizagem, registro de menções/indicadores, oportunidades de recuperação contínua e procedimentos formais de divulgação, revisão e recurso.
-* **Item 4:** Critérios de AVALIAÇÃO nas Unidades Curriculares.
-* **Item 5:** NÃO ENTREGA de atividades propostas.
-* **Item 7:** Oportunidade de RECUPERAÇÃO da APRENDIZAGEM.
-* **Item 9:** REPROVA por MENÇÃO.
-* **Item 6:** Divulgação de frequência.
-* **Item 10:** REVISÃO e RECURSO de frequência, menções ou notas.
+* **Item 8:** Critérios de AVALIAÇÃO nas Unidades Curriculares.
+* **Item 9:** NÃO ENTREGA de atividades propostas.
+* **Item 10:** Oportunidade de RECUPERAÇÃO da APRENDIZAGEM.
+* **Item 11:** REPROVA por MENÇÃO.
+* **Item 12:** Divulgação de frequência.
+* **Item 13:** REVISÃO e RECURSO de frequência, menções ou notas.
 
 ---
 
@@ -58,16 +58,16 @@ Esta documentação apresenta a estrutura de situações mapeadas no sistema par
 * **Descrição do Eixo:** Focado nas relações interpessoais, desenvolvimento de competências socioemocionais (*soft skills*), acolhimento de questões de saúde mental, combate ao bullying e promoção da cultura de paz no ambiente presencial ou virtual.
 * **Item 14:** CONVIVÊNCIA e respeito às normas institucionais.
 * **Item 15:** PREVENÇÃO ao BULLYING e CYBERBULLYING no ambiente escolar.
-* **Item 18:** CULTURA DE PAZ e NÃO DISCRIMINAÇÃO na comunidade escolar.
-* **Item 19:** ACOMPANHAMENTO PEDAGÓGICO em questões de Saúde Mental.
-* **Item 20:** DESEMPENHO e COLABORAÇÃO em atividades de grupo (Soft Skills).
+* **Item 16:** CULTURA DE PAZ e NÃO DISCRIMINAÇÃO na comunidade escolar.
+* **Item 17:** ACOMPANHAMENTO PEDAGÓGICO em questões de Saúde Mental.
+* **Item 18:** DESEMPENHO e COLABORAÇÃO em atividades de grupo (Soft Skills).
 
 ---
 
 ## 5. Eixo: Conduta, Segurança e Patrimônio
 * **Descrição do Eixo:** Trata do cumprimento das diretrizes operacionais e disciplinares da instituição, zelando pela segurança física e digital, integridade do patrimônio e conformidade com as normas e políticas institucionais (como a Política de Segurança da Informação - PSI).
-* **Item 16:** PROIBIÇÃO do uso de SUBSTÂNCIAS PSICOATIVAS.
-* **Item 17:** Uso adequado dos RECURSOS TECNOLÓGICOS e PSI.
+* **Item 19:** PROIBIÇÃO do uso de SUBSTÂNCIAS PSICOATIVAS.
+* **Item 20:** Uso adequado dos RECURSOS TECNOLÓGICOS e PSI.
 * **Item 21:** PRESERVAÇÃO do PATRIMÔNIO e ambientes de aprendizagem.
 
 ---
