@@ -72,7 +72,7 @@ Esta documentação apresenta a estrutura de situações mapeadas no sistema par
 
 ---
 
-## 🖥️ Demonstração
+## 🖥️ Demonstração (Para Usuários em Geral)
 
 > Versão publicada (live) na Vercel. 
 [https://qualified-record-chat-generator.vercel.app/](https://qualified-record-chat-generator.vercel.app/)
@@ -91,7 +91,7 @@ Nenhum framework, biblioteca ou dependência externa (sem jQuery, sem CDN, sem *
 
 ---
 
-## 🚀 Como executar
+## 🚀 Como executar (Para desenvolvedores)
 
 Pré-requisito: apenas um navegador atualizado (Chrome, Edge, Firefox ou Safari).
 
